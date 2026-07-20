@@ -1,0 +1,21 @@
+import{c as i,r as g,j as e,d as f,u as N}from"./index-CwKGMgNj.js";import{L as k}from"./LangLink-Du41gXGU.js";import{m as w,s as v,A as M,B as L,L as _,j as $}from"./LineBadge-BnFNnGpj.js";import{P as C}from"./phone-BVbTjzW0.js";/**
+ * @license lucide-react v0.474.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const H=[["path",{d:"m9 18 6-6-6-6",key:"mthhwq"}]],I=i("ChevronRight",H);/**
+ * @license lucide-react v0.474.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const R=[["path",{d:"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z",key:"a7tn18"}]],P=i("Moon",R);/**
+ * @license lucide-react v0.474.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const S=[["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}],["path",{d:"m21 21-4.3-4.3",key:"1qie3q"}]],F=i("Search",S);/**
+ * @license lucide-react v0.474.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const q=[["path",{d:"M7 18v-6a5 5 0 1 1 10 0v6",key:"pcx96s"}],["path",{d:"M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z",key:"1b4s83"}],["path",{d:"M21 12h1",key:"jtio3y"}],["path",{d:"M18.5 4.5 18 5",key:"g5sp9y"}],["path",{d:"M2 12h1",key:"1uaihz"}],["path",{d:"M12 2v1",key:"11qlp1"}],["path",{d:"m4.929 4.929.707.707",key:"1i51kw"}],["path",{d:"M12 12v6",key:"3ahymv"}]],O=i("Siren",q),B=g.forwardRef(({className:s,...a},t)=>e.jsx("input",{ref:t,className:f("h-11 w-full rounded-xl border border-slate-300 bg-white px-4 text-sm outline-none","placeholder:text-slate-400 focus:border-primary focus:ring-2 focus:ring-primary-100",s),...a}));B.displayName="Input";function Z({hospital:s,compact:a=!1}){var o,d,m,x,p,y,h;const{t}=N(),r=w((o=s.location)==null?void 0:o.address),c=v((d=s.location)==null?void 0:d.stationLine,r),n=(m=s.location)==null?void 0:m.region,j=[(x=n==null?void 0:n.sido)==null?void 0:x.name,n==null?void 0:n.name].filter(Boolean).join(" "),l=a?j:(p=s.location)==null?void 0:p.address,b=e.jsxs(e.Fragment,{children:[e.jsxs("div",{className:"flex flex-wrap items-center gap-1.5",children:[s.tier&&s.tier.code!=="TIER1"&&e.jsx("span",{className:"rounded-full bg-primary-50 px-2 py-0.5 text-xs font-medium text-primary-700",children:s.tier.name}),s.specialty&&e.jsx("span",{className:"rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700",children:s.specialty.name?`${s.specialty.name} ${t("clinic.specialtyHospital")}`:t("clinic.specialtyHospital")}),s.emergency&&e.jsxs("span",{className:"inline-flex items-center gap-1 rounded-full bg-rose-50 px-2 py-0.5 text-xs font-medium text-rose-700",children:[e.jsx(M,{className:"h-3 w-3"})," ",t("clinic.badge.emergency")]}),s.baby&&e.jsxs("span",{className:"inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-700",children:[e.jsx(L,{className:"h-3 w-3"})," ",t("clinic.badge.baby")]})]}),e.jsxs("div",{className:"mt-1 flex items-start justify-between gap-2",children:[e.jsx("h3",{className:f("font-semibold text-slate-900",a&&"min-w-0 flex-1 truncate text-sm"),children:s.name}),e.jsx(I,{className:"mt-0.5 h-4 w-4 shrink-0 text-slate-300"})]}),e.jsxs("dl",{className:"mt-2 space-y-1.5 text-xs text-slate-600",children:[(!a&&((y=s.location)==null?void 0:y.station)||l)&&e.jsx("div",{className:"flex items-start gap-1.5",children:e.jsxs("span",{className:"break-keep",children:[!a&&((h=s.location)==null?void 0:h.station)&&e.jsxs("span",{className:"mr-1.5 inline-flex items-center gap-1 align-middle",children:[c.map(u=>e.jsx(_,{line:u,city:r},u)),e.jsx("span",{className:"rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-700",children:$(s.location.station,c.length>0)})]}),l]})}),!a&&s.tel&&e.jsxs("div",{className:"flex items-center gap-1.5",children:[e.jsx(C,{className:"h-3.5 w-3.5 shrink-0 text-slate-400"}),e.jsx("span",{children:s.tel})]})]})]});return e.jsx(k,{to:`/hospitals/${s.id}`,className:"block rounded-2xl border border-slate-200 bg-white p-3 transition-shadow hover:shadow-md",children:b})}export{I as C,Z as H,B as I,P as M,F as S,O as a};
